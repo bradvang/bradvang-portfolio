@@ -1,0 +1,96 @@
+                    /*Start of the blue banner*/
+body .name{
+  background-color: #34495e;
+  
+    margin: 0 auto;
+    width: 95%;
+    height: 345px;
+
+    color: white;
+}
+
+.example{
+  font-family: 'Oswald', sans-serif;
+  
+  text-align: center;
+  font-size: 6.5em;
+
+  padding-top: 75.5px;
+}
+                    /*End of blue banner*/
+
+                  /* Start of Scroll Down*/
+.Everything{
+  background-color: white;
+
+    margin: 0 auto;
+    width: 95%;
+    height: 170px;
+}
+
+.down{
+  display: block;
+  text-align: center;
+
+  margin: 0px auto;
+
+  padding-top: 45px;
+}
+
+.down1{
+  font-size: 1.2em;
+}
+                  /*End of Scroll Down*/
+
+
+                  /*Start of featured work*/
+    /*Tittle*/
+.feat{
+background-color: white;
+
+  width: 95%;
+  /*height: 125px;*/
+
+  text-align: center;
+
+
+  margin: 0px auto;
+}
+    /*Pictures*/
+  /*
+.row{
+background-color: white;
+  
+  width: 95%;
+}
+*/
+
+#featWork{
+  margin-top: 0;
+}
+
+/*
+.feat img{
+  width: 100%;
+}
+*/
+
+.featPicture{
+background-color: white;
+  
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 0;
+  text-align: center;
+}
+
+.overlay{
+  margin-top: 0px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+                  /*End of featured work*/
+
+                  /* Button animation tryout. */
