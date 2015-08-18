@@ -9,6 +9,19 @@ background-color: white;
   text-align: center;
 }
 
+.feat{
+background-color: white;
+
+  width: 95%;
+  /*height: 125px;*/
+
+  text-align: left;
+
+
+  margin: 0px auto;
+  margin-top: 0;
+}
+
 .featPicture{
 background-color: white;
   
