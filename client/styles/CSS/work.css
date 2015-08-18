@@ -1,55 +1,36 @@
-									/*Main content 1*/
-.feat{
-background-color: white;
+	/*Start of Main Content*/
+    /*Tittle*/
 
-
-  width: 95%;
-  /*height: 125px;*/
-
-  text-align: left;
-
-
-  margin: 0 auto;
-}
-
+    /*Pictures*/
+  /*
 .row{
 background-color: white;
   
   width: 95%;
 }
+*/
 
-#featWork{
-  margin-top: 0;
-}
 
+/*
 .feat img{
   width: 100%;
 }
-									/*Main Content 2*/
+*/
 
-.feat2{
-background-color: white;
-
-
-  width: 95%;
-  /*height: 125px;*/
-
-  text-align: left;
-
-
-  margin: 0 auto;
-}
-
-.row{
+.featPicture{
 background-color: white;
   
   width: 95%;
-}
-
-#featWork2{
+  margin: 0 auto;
   margin-top: 0;
+  text-align: center;
 }
 
-.feat2 img{
-  width: 100%;
+.overlay{
+  margin-top: 0px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
 }
+
+                  /*End of Main Content*/
