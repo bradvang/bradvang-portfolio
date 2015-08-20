@@ -32,6 +32,7 @@
 		<link rel="Stylesheet" type="text/css" href="styles/CSS/base.css" />
     <link rel="Stylesheet" type="text/css" href="styles/CSS/contact.css" />
                 <!--CSS Files-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 
 		<title> Bradley N. Vang </title>
 	</head>
@@ -73,7 +74,7 @@
 
                 <!--Start of body-->
     
-    <form action="action_page.php">
+    <form action="random">
         Name:<br>
     <input class="contactName" type="text" name="contactName">
         <br>
@@ -83,7 +84,9 @@
         Message<br>
     <input class="mess" type="text" name="message">
         <br><br>
-    <input type="submit" value="Submit">
+    <a href="" class="submitButton">
+    <button>Submit</button>
+    </a>
     </form> 
 
 
@@ -129,5 +132,16 @@
        </div>
       </footer>
                  <!--End of footer-->
+<script>
+
+  $(".contactName").on("input", function(e){
+  console.log(e.target.value);
+
+  $(".submitButton").attr("href", e.target.value)
+
+  })
+
+</script>
+
     </body>
 </html>
