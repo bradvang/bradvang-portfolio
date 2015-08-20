@@ -1,0 +1,19 @@
+
+          /*Button*/
+button{
+  font-family: 'Apercu Medium', Calibri, sans-serif;
+  text-transform: uppercase;
+  padding : 0.6em 0.8em;
+  border : 0.15em solid black;
+  background-color : transparent;
+  font-weight : 500;
+  font-size : 1.5em;
+  cursor : pointer;
+}
+
+button:hover{
+  transition : all 0.5s ease;
+  background-color : #2c3e50;
+  border-color : #2c3e50;
+  color : white;
+}
