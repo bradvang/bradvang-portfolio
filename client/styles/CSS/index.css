@@ -93,10 +93,10 @@ background-color: white;
 
                   /*End of featured work*/
 
-                  /* Button animation tryout. */
+                  /*Start of View all button */
 
-.containher{
-  background-color: white;
+.containerr{
+background-color: orange;
   
   width: 95%;
   margin: 0 auto;
@@ -107,3 +107,5 @@ background-color: white;
 .butt{
 border-style: groove;
 }
+
+                  /*End of View all button */
