@@ -94,3 +94,16 @@ background-color: white;
                   /*End of featured work*/
 
                   /* Button animation tryout. */
+
+.containher{
+  background-color: white;
+  
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 0;
+  text-align: center;
+}
+
+.butt{
+border-style: groove;
+}
