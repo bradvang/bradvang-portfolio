@@ -157,3 +157,17 @@ button .click{
 
 
 			/*End of Button Styles*/
+a {
+	position: relative;
+}
+
+.color{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+
+a:hover .color{
+	opacity:1;
+}
